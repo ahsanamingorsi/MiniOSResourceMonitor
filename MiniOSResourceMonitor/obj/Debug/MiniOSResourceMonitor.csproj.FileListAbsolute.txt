@@ -1,0 +1,10 @@
+D:\Projects\Operationg System\MiniOSResourceMonitor\MiniOSResourceMonitor\bin\Debug\MiniOSResourceMonitor.exe.config
+D:\Projects\Operationg System\MiniOSResourceMonitor\MiniOSResourceMonitor\bin\Debug\MiniOSResourceMonitor.exe
+D:\Projects\Operationg System\MiniOSResourceMonitor\MiniOSResourceMonitor\bin\Debug\MiniOSResourceMonitor.pdb
+D:\Projects\Operationg System\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\Debug\MiniOSResourceMonitor.csproj.AssemblyReference.cache
+D:\Projects\Operationg System\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\Debug\MiniOSResourceMonitor.MainForm.resources
+D:\Projects\Operationg System\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\Debug\MiniOSResourceMonitor.Properties.Resources.resources
+D:\Projects\Operationg System\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\Debug\MiniOSResourceMonitor.csproj.GenerateResource.cache
+D:\Projects\Operationg System\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\Debug\MiniOSResourceMonitor.csproj.CoreCompileInputs.cache
+D:\Projects\Operationg System\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\Debug\MiniOSResourceMonitor.exe
+D:\Projects\Operationg System\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\Debug\MiniOSResourceMonitor.pdb
