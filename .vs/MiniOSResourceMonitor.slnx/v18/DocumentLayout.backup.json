@@ -1,54 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\models\\processdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\models\\processdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\ui\\addprocessform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\ui\\addprocessform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\models\\processmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\models\\processmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\logic\\simulationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\logic\\simulationengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\logic\\resourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\logic\\resourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\logic\\processcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\logic\\processcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\models\\resourcestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\models\\resourcestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|d:\\projects\\operationg system\\miniosresourcemonitor\\miniosresourcemonitor\\models\\systemconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\models\\systemconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,156 +34,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProcessDisplay.cs",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Models\\ProcessDisplay.cs",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Models\\ProcessDisplay.cs",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Models\\ProcessDisplay.cs",
-              "RelativeToolTip": "MiniOSResourceMonitor\\Models\\ProcessDisplay.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T15:23:13.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ResourceManager.cs",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Logic\\ResourceManager.cs",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Logic\\ResourceManager.cs",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Logic\\ResourceManager.cs",
-              "RelativeToolTip": "MiniOSResourceMonitor\\Logic\\ResourceManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T13:29:37.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Program.cs",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Program.cs",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Program.cs",
-              "RelativeToolTip": "MiniOSResourceMonitor\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T13:48:52.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\MainForm.Designer.cs",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\MainForm.Designer.cs*",
-              "RelativeToolTip": "MiniOSResourceMonitor\\MainForm.Designer.cs*",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAAAN0AAAAAAAAAAAAAAA==",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\UI\\MainForm.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\MainForm.cs [Design]",
+              "RelativeToolTip": "MiniOSResourceMonitor\\UI\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T13:17:08.138Z",
+              "WhenOpened": "2026-03-30T17:05:22.251Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddProcessForm.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\AddProcessForm.cs",
+              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\UI\\AddProcessForm.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\AddProcessForm.cs",
+              "RelativeToolTip": "MiniOSResourceMonitor\\UI\\AddProcessForm.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAawD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T16:56:59.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\MainForm.cs",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\MainForm.cs",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\MainForm.cs [Design]*",
-              "RelativeToolTip": "MiniOSResourceMonitor\\MainForm.cs [Design]*",
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\UI\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\MainForm.Designer.cs",
+              "RelativeToolTip": "MiniOSResourceMonitor\\UI\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAawA8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T15:19:13.468Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.resx",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\MainForm.resx",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\MainForm.resx",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\MainForm.resx*",
-              "RelativeToolTip": "MiniOSResourceMonitor\\MainForm.resx*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-01-17T13:36:45.719Z",
+              "WhenOpened": "2026-03-30T16:39:32.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\MainForm.cs",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\MainForm.cs",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\MainForm.cs*",
-              "RelativeToolTip": "MiniOSResourceMonitor\\MainForm.cs*",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAwE0AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\UI\\MainForm.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\MainForm.cs",
+              "RelativeToolTip": "MiniOSResourceMonitor\\UI\\MainForm.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAIAwwFQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T15:00:34.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProcessModel.cs",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Models\\ProcessModel.cs",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Models\\ProcessModel.cs",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Models\\ProcessModel.cs",
-              "RelativeToolTip": "MiniOSResourceMonitor\\Models\\ProcessModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T13:20:55.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SimulationEngine.cs",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Logic\\SimulationEngine.cs",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Logic\\SimulationEngine.cs",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Logic\\SimulationEngine.cs",
-              "RelativeToolTip": "MiniOSResourceMonitor\\Logic\\SimulationEngine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T13:34:39.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProcessController.cs",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Logic\\ProcessController.cs",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Logic\\ProcessController.cs",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Logic\\ProcessController.cs",
-              "RelativeToolTip": "MiniOSResourceMonitor\\Logic\\ProcessController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T13:32:34.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ResourceStatus.cs",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Models\\ResourceStatus.cs",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Models\\ResourceStatus.cs",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Models\\ResourceStatus.cs",
-              "RelativeToolTip": "MiniOSResourceMonitor\\Models\\ResourceStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T13:21:06.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SystemConfig.cs",
-              "DocumentMoniker": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Models\\SystemConfig.cs",
-              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Models\\SystemConfig.cs",
-              "ToolTip": "D:\\Projects\\Operationg System\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Models\\SystemConfig.cs",
-              "RelativeToolTip": "MiniOSResourceMonitor\\Models\\SystemConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T13:20:41.045Z",
+              "WhenOpened": "2026-03-30T16:38:04.036Z",
               "EditorCaption": ""
             }
           ]
