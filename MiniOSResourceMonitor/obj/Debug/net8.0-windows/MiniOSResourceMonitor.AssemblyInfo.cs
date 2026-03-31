@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniOSResourceMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59b7ef0508bee5e8e6ad92403ff9450e00075260")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1fb0610c9f40b455498cd272b67289053aa9d6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniOSResourceMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniOSResourceMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,3 +16,4 @@ C:\Users\USER\Documents\GitHub\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\D
 C:\Users\USER\Documents\GitHub\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\Debug\net8.0-windows\ref\MiniOSResourceMonitor.dll
 C:\Users\USER\Documents\GitHub\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\Debug\net8.0-windows\MiniOSResourceMonitor.UI.AddProcessForm.resources
 C:\Users\USER\Documents\GitHub\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\Debug\net8.0-windows\MiniOSResourceMonitor.csproj.GenerateResource.cache
+C:\Users\USER\Documents\GitHub\MiniOSResourceMonitor\MiniOSResourceMonitor\obj\Debug\net8.0-windows\MiniOSResourceMonitor.UI.MainForm.resources
