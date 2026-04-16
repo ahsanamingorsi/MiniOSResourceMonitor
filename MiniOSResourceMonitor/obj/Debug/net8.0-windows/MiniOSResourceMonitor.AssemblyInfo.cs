@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniOSResourceMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD:MiniOSResourceMonitor/obj/Release/net8.0-windows/MiniOSResourceMonitor.AssemblyInfo.cs
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b287c6543f9426333e7970eb891082defc989cb3")]
+=======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d452d32e086b35242057dd99e8be44169f5488a7")]
+>>>>>>> parent of b287c65 (make installer file):MiniOSResourceMonitor/obj/Debug/net8.0-windows/MiniOSResourceMonitor.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyProductAttribute("MiniOSResourceMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniOSResourceMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

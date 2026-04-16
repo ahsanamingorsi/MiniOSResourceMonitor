@@ -14,704 +14,628 @@
         private void InitializeComponent()
         {
             pnlTitle = new Panel();
-            lblAppTitle = new Label();
-            lblSubtitle = new Label();
             lblStepDisplay = new Label();
+            lblSubtitle = new Label();
+            lblAppTitle = new Label();
             pnlLegend = new Panel();
-            lblLegNew = new Label();
-            lblLegReady = new Label();
-            lblLegRunning = new Label();
-            lblLegWaiting = new Label();
             lblLegTerm = new Label();
-            pnlLeft = new Panel();
+            lblLegWaiting = new Label();
+            lblLegRunning = new Label();
+            lblLegReady = new Label();
+            lblLegNew = new Label();
+            tlpMain = new TableLayoutPanel();
+            scrlLeft = new Panel();
+            pnlGraph = new Panel();
+            picGraph = new PictureBox();
+            lblGraphHdr = new Label();
             pnlPerf = new Panel();
-            lblPerfHdr = new Label();
-            lblThruTag = new Label();
-            lblThroughput = new Label();
-            lblWaitTag = new Label();
-            lblAvgWait = new Label();
-            lblCompTag = new Label();
             lblCompleted = new Label();
+            lblCompTag = new Label();
+            lblAvgWait = new Label();
+            lblWaitTag = new Label();
+            lblThroughput = new Label();
+            lblThruTag = new Label();
+            lblPerfHdr = new Label();
             pnlRes = new Panel();
-            lblResHdr = new Label();
-            lblCpuTag = new Label();
-            lblCpuPct = new Label();
-            pbCpu = new ProgressBar();
-            lblMemTag = new Label();
-            lblMemPct = new Label();
-            pbMem = new ProgressBar();
-            lblIoTag = new Label();
-            lblIoPct = new Label();
-            pbIo = new ProgressBar();
-            lblReadyTag = new Label();
-            lblReady = new Label();
-            lblRunningTag = new Label();
-            lblRunning = new Label();
+            lblWaitingVal = new Label();
             lblWaitingTag = new Label();
-            lblWaiting = new Label();
+            lblRunningVal = new Label();
+            lblRunningTag = new Label();
+            lblReadyVal = new Label();
+            lblReadyTag = new Label();
+            pbIo = new ProgressBar();
+            lblIoPct = new Label();
+            lblIoTag = new Label();
+            pbMem = new ProgressBar();
+            lblMemPct = new Label();
+            lblMemTag = new Label();
+            pbCpu = new ProgressBar();
+            lblCpuPct = new Label();
+            lblCpuTag = new Label();
+            lblResHdr = new Label();
             pnlCtrl = new Panel();
-            lblCtrlHdr = new Label();
-            btnStart = new Button();
-            btnStep = new Button();
             btnReset = new Button();
+            btnStep = new Button();
+            btnStart = new Button();
+            lblCtrlHdr = new Label();
             pnlConfig = new Panel();
-            lblConfigHdr = new Label();
-            lblCpuLbl = new Label();
-            numCpu = new NumericUpDown();
-            lblMemLbl = new Label();
-            numMemory = new NumericUpDown();
-            lblIoLbl = new Label();
-            numIo = new NumericUpDown();
             btnApply = new Button();
+            numIo = new NumericUpDown();
+            lblIoLbl = new Label();
+            numMemory = new NumericUpDown();
+            lblMemLbl = new Label();
+            numCpu = new NumericUpDown();
+            lblCpuLbl = new Label();
+            lblConfigHdr = new Label();
             pnlRight = new Panel();
-            pnlLog = new Panel();
-            lblLogHdr = new Label();
-            rtbLog = new RichTextBox();
-            pnlProc = new Panel();
-            lblProcHdr = new Label();
-            btnAdd = new Button();
-            btnEdit = new Button();
-            btnDelete = new Button();
             grid = new DataGridView();
+            pnlLog = new Panel();
+            rtbLog = new RichTextBox();
+            lblLogHdr = new Label();
+            pnlProcBar = new Panel();
+            btnDelete = new Button();
+            btnEdit = new Button();
+            btnAdd = new Button();
+            lblProcHdr = new Label();
             pnlTitle.SuspendLayout();
             pnlLegend.SuspendLayout();
-            pnlLeft.SuspendLayout();
+            tlpMain.SuspendLayout();
+            scrlLeft.SuspendLayout();
+            pnlGraph.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picGraph).BeginInit();
             pnlPerf.SuspendLayout();
             pnlRes.SuspendLayout();
             pnlCtrl.SuspendLayout();
             pnlConfig.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numCpu).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numMemory).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numIo).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numMemory).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numCpu).BeginInit();
             pnlRight.SuspendLayout();
-            pnlLog.SuspendLayout();
-            pnlProc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)grid).BeginInit();
+            pnlLog.SuspendLayout();
+            pnlProcBar.SuspendLayout();
             SuspendLayout();
             // 
             // pnlTitle
             // 
-            pnlTitle.BackColor = Color.FromArgb(22, 27, 34);
-            pnlTitle.Controls.Add(lblAppTitle);
-            pnlTitle.Controls.Add(lblSubtitle);
             pnlTitle.Controls.Add(lblStepDisplay);
+            pnlTitle.Controls.Add(lblSubtitle);
+            pnlTitle.Controls.Add(lblAppTitle);
             pnlTitle.Dock = DockStyle.Top;
             pnlTitle.Location = new Point(0, 0);
             pnlTitle.Margin = new Padding(3, 4, 3, 4);
             pnlTitle.Name = "pnlTitle";
-            pnlTitle.Size = new Size(1297, 61);
+            pnlTitle.Size = new Size(1463, 69);
             pnlTitle.TabIndex = 0;
-            // 
-            // lblAppTitle
-            // 
-            lblAppTitle.AutoSize = true;
-            lblAppTitle.Location = new Point(18, 13);
-            lblAppTitle.Name = "lblAppTitle";
-            lblAppTitle.Size = new Size(182, 20);
-            lblAppTitle.TabIndex = 0;
-            lblAppTitle.Text = "Mini OS Resource Monitor";
-            // 
-            // lblSubtitle
-            // 
-            lblSubtitle.AutoSize = true;
-            lblSubtitle.Location = new Point(297, 20);
-            lblSubtitle.Name = "lblSubtitle";
-            lblSubtitle.Size = new Size(267, 20);
-            lblSubtitle.TabIndex = 1;
-            lblSubtitle.Text = "Simulation — no real system data used";
             // 
             // lblStepDisplay
             // 
             lblStepDisplay.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            lblStepDisplay.AutoSize = true;
-            lblStepDisplay.Location = new Point(2371, 17);
+            lblStepDisplay.Location = new Point(1234, 0);
             lblStepDisplay.Name = "lblStepDisplay";
-            lblStepDisplay.Size = new Size(54, 20);
+            lblStepDisplay.Size = new Size(206, 29);
             lblStepDisplay.TabIndex = 2;
             lblStepDisplay.Text = "Step: 0";
+            lblStepDisplay.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // lblSubtitle
+            // 
+            lblSubtitle.Location = new Point(491, 24);
+            lblSubtitle.Name = "lblSubtitle";
+            lblSubtitle.Size = new Size(389, 24);
+            lblSubtitle.TabIndex = 1;
+            lblSubtitle.Text = "Simulation — no real system data used";
+            // 
+            // lblAppTitle
+            // 
+            lblAppTitle.Location = new Point(18, 13);
+            lblAppTitle.Name = "lblAppTitle";
+            lblAppTitle.Size = new Size(457, 40);
+            lblAppTitle.TabIndex = 0;
+            lblAppTitle.Text = "Mini OS Resource Monitor";
             // 
             // pnlLegend
             // 
-            pnlLegend.BackColor = Color.FromArgb(22, 27, 34);
-            pnlLegend.Controls.Add(lblLegNew);
-            pnlLegend.Controls.Add(lblLegReady);
-            pnlLegend.Controls.Add(lblLegRunning);
-            pnlLegend.Controls.Add(lblLegWaiting);
             pnlLegend.Controls.Add(lblLegTerm);
+            pnlLegend.Controls.Add(lblLegWaiting);
+            pnlLegend.Controls.Add(lblLegRunning);
+            pnlLegend.Controls.Add(lblLegReady);
+            pnlLegend.Controls.Add(lblLegNew);
             pnlLegend.Dock = DockStyle.Bottom;
-            pnlLegend.Location = new Point(0, 862);
+            pnlLegend.Location = new Point(0, 1015);
             pnlLegend.Margin = new Padding(3, 4, 3, 4);
             pnlLegend.Name = "pnlLegend";
-            pnlLegend.Size = new Size(1297, 35);
+            pnlLegend.Size = new Size(1463, 40);
             pnlLegend.TabIndex = 1;
-            // 
-            // lblLegNew
-            // 
-            lblLegNew.AutoSize = true;
-            lblLegNew.Location = new Point(16, 7);
-            lblLegNew.Name = "lblLegNew";
-            lblLegNew.Size = new Size(52, 20);
-            lblLegNew.TabIndex = 0;
-            lblLegNew.Text = "● New";
-            // 
-            // lblLegReady
-            // 
-            lblLegReady.AutoSize = true;
-            lblLegReady.Location = new Point(130, 7);
-            lblLegReady.Name = "lblLegReady";
-            lblLegReady.Size = new Size(63, 20);
-            lblLegReady.TabIndex = 1;
-            lblLegReady.Text = "● Ready";
-            // 
-            // lblLegRunning
-            // 
-            lblLegRunning.AutoSize = true;
-            lblLegRunning.Location = new Point(245, 7);
-            lblLegRunning.Name = "lblLegRunning";
-            lblLegRunning.Size = new Size(76, 20);
-            lblLegRunning.TabIndex = 2;
-            lblLegRunning.Text = "● Running";
-            // 
-            // lblLegWaiting
-            // 
-            lblLegWaiting.AutoSize = true;
-            lblLegWaiting.Location = new Point(359, 7);
-            lblLegWaiting.Name = "lblLegWaiting";
-            lblLegWaiting.Size = new Size(73, 20);
-            lblLegWaiting.TabIndex = 3;
-            lblLegWaiting.Text = "● Waiting";
             // 
             // lblLegTerm
             // 
-            lblLegTerm.AutoSize = true;
-            lblLegTerm.Location = new Point(473, 7);
+            lblLegTerm.Location = new Point(453, 9);
             lblLegTerm.Name = "lblLegTerm";
-            lblLegTerm.Size = new Size(97, 20);
+            lblLegTerm.Size = new Size(126, 21);
             lblLegTerm.TabIndex = 4;
             lblLegTerm.Text = "● Terminated";
             // 
-            // pnlLeft
+            // lblLegWaiting
             // 
-            pnlLeft.BackColor = Color.FromArgb(13, 17, 23);
-            pnlLeft.Controls.Add(pnlPerf);
-            pnlLeft.Controls.Add(pnlRes);
-            pnlLeft.Controls.Add(pnlCtrl);
-            pnlLeft.Controls.Add(pnlConfig);
-            pnlLeft.Dock = DockStyle.Left;
-            pnlLeft.Location = new Point(0, 61);
-            pnlLeft.Margin = new Padding(3, 4, 3, 4);
-            pnlLeft.Name = "pnlLeft";
-            pnlLeft.Padding = new Padding(11, 13, 11, 13);
-            pnlLeft.Size = new Size(354, 801);
-            pnlLeft.TabIndex = 2;
+            lblLegWaiting.Location = new Point(338, 9);
+            lblLegWaiting.Name = "lblLegWaiting";
+            lblLegWaiting.Size = new Size(103, 21);
+            lblLegWaiting.TabIndex = 3;
+            lblLegWaiting.Text = "● Waiting";
+            // 
+            // lblLegRunning
+            // 
+            lblLegRunning.Location = new Point(224, 9);
+            lblLegRunning.Name = "lblLegRunning";
+            lblLegRunning.Size = new Size(103, 21);
+            lblLegRunning.TabIndex = 2;
+            lblLegRunning.Text = "● Running";
+            // 
+            // lblLegReady
+            // 
+            lblLegReady.Location = new Point(121, 9);
+            lblLegReady.Name = "lblLegReady";
+            lblLegReady.Size = new Size(91, 21);
+            lblLegReady.TabIndex = 1;
+            lblLegReady.Text = "● Ready";
+            // 
+            // lblLegNew
+            // 
+            lblLegNew.Location = new Point(18, 9);
+            lblLegNew.Name = "lblLegNew";
+            lblLegNew.Size = new Size(91, 21);
+            lblLegNew.TabIndex = 0;
+            lblLegNew.Text = "● New";
+            // 
+            // tlpMain
+            // 
+            tlpMain.ColumnCount = 2;
+            tlpMain.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 366F));
+            tlpMain.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tlpMain.Controls.Add(scrlLeft, 0, 0);
+            tlpMain.Controls.Add(pnlRight, 1, 0);
+            tlpMain.Dock = DockStyle.Fill;
+            tlpMain.Location = new Point(0, 69);
+            tlpMain.Margin = new Padding(3, 4, 3, 4);
+            tlpMain.Name = "tlpMain";
+            tlpMain.Padding = new Padding(7, 8, 7, 8);
+            tlpMain.RowCount = 1;
+            tlpMain.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tlpMain.Size = new Size(1463, 946);
+            tlpMain.TabIndex = 2;
+            // 
+            // scrlLeft
+            // 
+            scrlLeft.AutoScroll = true;
+            scrlLeft.Controls.Add(pnlGraph);
+            scrlLeft.Controls.Add(pnlPerf);
+            scrlLeft.Controls.Add(pnlRes);
+            scrlLeft.Controls.Add(pnlCtrl);
+            scrlLeft.Controls.Add(pnlConfig);
+            scrlLeft.Dock = DockStyle.Fill;
+            scrlLeft.Location = new Point(10, 12);
+            scrlLeft.Margin = new Padding(3, 4, 3, 4);
+            scrlLeft.Name = "scrlLeft";
+            scrlLeft.Padding = new Padding(0, 0, 5, 0);
+            scrlLeft.Size = new Size(360, 922);
+            scrlLeft.TabIndex = 0;
+            // 
+            // pnlGraph
+            // 
+            pnlGraph.Controls.Add(picGraph);
+            pnlGraph.Controls.Add(lblGraphHdr);
+            pnlGraph.Location = new Point(0, 925);
+            pnlGraph.Margin = new Padding(3, 4, 3, 4);
+            pnlGraph.Name = "pnlGraph";
+            pnlGraph.Size = new Size(341, 240);
+            pnlGraph.TabIndex = 4;
+            // 
+            // picGraph
+            // 
+            picGraph.Location = new Point(9, 45);
+            picGraph.Margin = new Padding(3, 4, 3, 4);
+            picGraph.Name = "picGraph";
+            picGraph.Size = new Size(320, 181);
+            picGraph.SizeMode = PictureBoxSizeMode.StretchImage;
+            picGraph.TabIndex = 1;
+            picGraph.TabStop = false;
+            // 
+            // lblGraphHdr
+            // 
+            lblGraphHdr.Location = new Point(14, 16);
+            lblGraphHdr.Name = "lblGraphHdr";
+            lblGraphHdr.Size = new Size(311, 24);
+            lblGraphHdr.TabIndex = 0;
+            lblGraphHdr.Text = "RESOURCE HISTORY GRAPH";
             // 
             // pnlPerf
             // 
-            pnlPerf.BackColor = Color.FromArgb(22, 27, 34);
-            pnlPerf.Controls.Add(lblPerfHdr);
-            pnlPerf.Controls.Add(lblThruTag);
-            pnlPerf.Controls.Add(lblThroughput);
-            pnlPerf.Controls.Add(lblWaitTag);
-            pnlPerf.Controls.Add(lblAvgWait);
-            pnlPerf.Controls.Add(lblCompTag);
             pnlPerf.Controls.Add(lblCompleted);
-            pnlPerf.Location = new Point(11, 764);
+            pnlPerf.Controls.Add(lblCompTag);
+            pnlPerf.Controls.Add(lblAvgWait);
+            pnlPerf.Controls.Add(lblWaitTag);
+            pnlPerf.Controls.Add(lblThroughput);
+            pnlPerf.Controls.Add(lblThruTag);
+            pnlPerf.Controls.Add(lblPerfHdr);
+            pnlPerf.Location = new Point(0, 752);
             pnlPerf.Margin = new Padding(3, 4, 3, 4);
             pnlPerf.Name = "pnlPerf";
-            pnlPerf.Size = new Size(327, 173);
+            pnlPerf.Size = new Size(341, 163);
             pnlPerf.TabIndex = 3;
-            // 
-            // lblPerfHdr
-            // 
-            lblPerfHdr.AutoSize = true;
-            lblPerfHdr.Location = new Point(16, 13);
-            lblPerfHdr.Name = "lblPerfHdr";
-            lblPerfHdr.Size = new Size(175, 20);
-            lblPerfHdr.TabIndex = 0;
-            lblPerfHdr.Text = "PERFORMANCE METRICS";
-            // 
-            // lblThruTag
-            // 
-            lblThruTag.AutoSize = true;
-            lblThruTag.Location = new Point(16, 48);
-            lblThruTag.Name = "lblThruTag";
-            lblThruTag.Size = new Size(89, 20);
-            lblThruTag.TabIndex = 1;
-            lblThruTag.Text = "Throughput:";
-            // 
-            // lblThroughput
-            // 
-            lblThroughput.AutoSize = true;
-            lblThroughput.Location = new Point(149, 48);
-            lblThroughput.Name = "lblThroughput";
-            lblThroughput.Size = new Size(112, 20);
-            lblThroughput.TabIndex = 2;
-            lblThroughput.Text = "0.000 proc/step";
-            // 
-            // lblWaitTag
-            // 
-            lblWaitTag.AutoSize = true;
-            lblWaitTag.Location = new Point(16, 88);
-            lblWaitTag.Name = "lblWaitTag";
-            lblWaitTag.Size = new Size(109, 20);
-            lblWaitTag.TabIndex = 3;
-            lblWaitTag.Text = "Avg Wait Time:";
-            // 
-            // lblAvgWait
-            // 
-            lblAvgWait.AutoSize = true;
-            lblAvgWait.Location = new Point(149, 88);
-            lblAvgWait.Name = "lblAvgWait";
-            lblAvgWait.Size = new Size(74, 20);
-            lblAvgWait.TabIndex = 4;
-            lblAvgWait.Text = "0.00 steps";
-            // 
-            // lblCompTag
-            // 
-            lblCompTag.AutoSize = true;
-            lblCompTag.Location = new Point(16, 128);
-            lblCompTag.Name = "lblCompTag";
-            lblCompTag.Size = new Size(86, 20);
-            lblCompTag.TabIndex = 5;
-            lblCompTag.Text = "Completed:";
             // 
             // lblCompleted
             // 
-            lblCompleted.AutoSize = true;
-            lblCompleted.Location = new Point(149, 128);
+            lblCompleted.Location = new Point(160, 123);
             lblCompleted.Name = "lblCompleted";
-            lblCompleted.Size = new Size(17, 20);
+            lblCompleted.Size = new Size(165, 21);
             lblCompleted.TabIndex = 6;
             lblCompleted.Text = "0";
             // 
+            // lblCompTag
+            // 
+            lblCompTag.Location = new Point(14, 123);
+            lblCompTag.Name = "lblCompTag";
+            lblCompTag.Size = new Size(114, 21);
+            lblCompTag.TabIndex = 5;
+            lblCompTag.Text = "Completed:";
+            // 
+            // lblAvgWait
+            // 
+            lblAvgWait.Location = new Point(160, 88);
+            lblAvgWait.Name = "lblAvgWait";
+            lblAvgWait.Size = new Size(165, 21);
+            lblAvgWait.TabIndex = 4;
+            lblAvgWait.Text = "0.00 steps";
+            // 
+            // lblWaitTag
+            // 
+            lblWaitTag.Location = new Point(14, 88);
+            lblWaitTag.Name = "lblWaitTag";
+            lblWaitTag.Size = new Size(126, 21);
+            lblWaitTag.TabIndex = 3;
+            lblWaitTag.Text = "Avg Wait Time:";
+            // 
+            // lblThroughput
+            // 
+            lblThroughput.Location = new Point(160, 53);
+            lblThroughput.Name = "lblThroughput";
+            lblThroughput.Size = new Size(165, 21);
+            lblThroughput.TabIndex = 2;
+            lblThroughput.Text = "0.000 proc/step";
+            // 
+            // lblThruTag
+            // 
+            lblThruTag.Location = new Point(14, 53);
+            lblThruTag.Name = "lblThruTag";
+            lblThruTag.Size = new Size(114, 21);
+            lblThruTag.TabIndex = 1;
+            lblThruTag.Text = "Throughput:";
+            // 
+            // lblPerfHdr
+            // 
+            lblPerfHdr.Location = new Point(14, 16);
+            lblPerfHdr.Name = "lblPerfHdr";
+            lblPerfHdr.Size = new Size(311, 24);
+            lblPerfHdr.TabIndex = 0;
+            lblPerfHdr.Text = "PERFORMANCE METRICS";
+            // 
             // pnlRes
             // 
-            pnlRes.BackColor = Color.FromArgb(22, 27, 34);
-            pnlRes.Controls.Add(lblResHdr);
-            pnlRes.Controls.Add(lblCpuTag);
-            pnlRes.Controls.Add(lblCpuPct);
-            pnlRes.Controls.Add(pbCpu);
-            pnlRes.Controls.Add(lblMemTag);
-            pnlRes.Controls.Add(lblMemPct);
-            pnlRes.Controls.Add(pbMem);
-            pnlRes.Controls.Add(lblIoTag);
-            pnlRes.Controls.Add(lblIoPct);
-            pnlRes.Controls.Add(pbIo);
-            pnlRes.Controls.Add(lblReadyTag);
-            pnlRes.Controls.Add(lblReady);
-            pnlRes.Controls.Add(lblRunningTag);
-            pnlRes.Controls.Add(lblRunning);
+            pnlRes.Controls.Add(lblWaitingVal);
             pnlRes.Controls.Add(lblWaitingTag);
-            pnlRes.Controls.Add(lblWaiting);
-            pnlRes.Location = new Point(11, 504);
+            pnlRes.Controls.Add(lblRunningVal);
+            pnlRes.Controls.Add(lblRunningTag);
+            pnlRes.Controls.Add(lblReadyVal);
+            pnlRes.Controls.Add(lblReadyTag);
+            pnlRes.Controls.Add(pbIo);
+            pnlRes.Controls.Add(lblIoPct);
+            pnlRes.Controls.Add(lblIoTag);
+            pnlRes.Controls.Add(pbMem);
+            pnlRes.Controls.Add(lblMemPct);
+            pnlRes.Controls.Add(lblMemTag);
+            pnlRes.Controls.Add(pbCpu);
+            pnlRes.Controls.Add(lblCpuPct);
+            pnlRes.Controls.Add(lblCpuTag);
+            pnlRes.Controls.Add(lblResHdr);
+            pnlRes.Location = new Point(0, 488);
             pnlRes.Margin = new Padding(3, 4, 3, 4);
             pnlRes.Name = "pnlRes";
-            pnlRes.Size = new Size(327, 247);
+            pnlRes.Size = new Size(341, 253);
             pnlRes.TabIndex = 2;
             // 
-            // lblResHdr
+            // lblWaitingVal
             // 
-            lblResHdr.AutoSize = true;
-            lblResHdr.Location = new Point(16, 13);
-            lblResHdr.Name = "lblResHdr";
-            lblResHdr.Size = new Size(169, 20);
-            lblResHdr.TabIndex = 0;
-            lblResHdr.Text = "RESOURCE UTILISATION";
-            // 
-            // lblCpuTag
-            // 
-            lblCpuTag.AutoSize = true;
-            lblCpuTag.Location = new Point(16, 45);
-            lblCpuTag.Name = "lblCpuTag";
-            lblCpuTag.Size = new Size(36, 20);
-            lblCpuTag.TabIndex = 1;
-            lblCpuTag.Text = "CPU";
-            // 
-            // lblCpuPct
-            // 
-            lblCpuPct.AutoSize = true;
-            lblCpuPct.Location = new Point(251, 43);
-            lblCpuPct.Name = "lblCpuPct";
-            lblCpuPct.Size = new Size(40, 20);
-            lblCpuPct.TabIndex = 2;
-            lblCpuPct.Text = "0.0%";
-            // 
-            // pbCpu
-            // 
-            pbCpu.Location = new Point(16, 69);
-            pbCpu.Margin = new Padding(3, 4, 3, 4);
-            pbCpu.Name = "pbCpu";
-            pbCpu.Size = new Size(295, 13);
-            pbCpu.Style = ProgressBarStyle.Continuous;
-            pbCpu.TabIndex = 3;
-            // 
-            // lblMemTag
-            // 
-            lblMemTag.AutoSize = true;
-            lblMemTag.Location = new Point(16, 96);
-            lblMemTag.Name = "lblMemTag";
-            lblMemTag.Size = new Size(64, 20);
-            lblMemTag.TabIndex = 4;
-            lblMemTag.Text = "Memory";
-            // 
-            // lblMemPct
-            // 
-            lblMemPct.AutoSize = true;
-            lblMemPct.Location = new Point(251, 93);
-            lblMemPct.Name = "lblMemPct";
-            lblMemPct.Size = new Size(40, 20);
-            lblMemPct.TabIndex = 5;
-            lblMemPct.Text = "0.0%";
-            // 
-            // pbMem
-            // 
-            pbMem.Location = new Point(16, 120);
-            pbMem.Margin = new Padding(3, 4, 3, 4);
-            pbMem.Name = "pbMem";
-            pbMem.Size = new Size(295, 13);
-            pbMem.Style = ProgressBarStyle.Continuous;
-            pbMem.TabIndex = 6;
-            // 
-            // lblIoTag
-            // 
-            lblIoTag.AutoSize = true;
-            lblIoTag.Location = new Point(16, 147);
-            lblIoTag.Name = "lblIoTag";
-            lblIoTag.Size = new Size(30, 20);
-            lblIoTag.TabIndex = 7;
-            lblIoTag.Text = "I/O";
-            // 
-            // lblIoPct
-            // 
-            lblIoPct.AutoSize = true;
-            lblIoPct.Location = new Point(251, 144);
-            lblIoPct.Name = "lblIoPct";
-            lblIoPct.Size = new Size(40, 20);
-            lblIoPct.TabIndex = 8;
-            lblIoPct.Text = "0.0%";
-            // 
-            // pbIo
-            // 
-            pbIo.Location = new Point(16, 168);
-            pbIo.Margin = new Padding(3, 4, 3, 4);
-            pbIo.Name = "pbIo";
-            pbIo.Size = new Size(295, 13);
-            pbIo.Style = ProgressBarStyle.Continuous;
-            pbIo.TabIndex = 9;
-            // 
-            // lblReadyTag
-            // 
-            lblReadyTag.AutoSize = true;
-            lblReadyTag.Location = new Point(16, 200);
-            lblReadyTag.Name = "lblReadyTag";
-            lblReadyTag.Size = new Size(53, 20);
-            lblReadyTag.TabIndex = 10;
-            lblReadyTag.Text = "Ready:";
-            // 
-            // lblReady
-            // 
-            lblReady.AutoSize = true;
-            lblReady.Location = new Point(73, 200);
-            lblReady.Name = "lblReady";
-            lblReady.Size = new Size(17, 20);
-            lblReady.TabIndex = 11;
-            lblReady.Text = "0";
-            // 
-            // lblRunningTag
-            // 
-            lblRunningTag.AutoSize = true;
-            lblRunningTag.Location = new Point(119, 200);
-            lblRunningTag.Name = "lblRunningTag";
-            lblRunningTag.Size = new Size(66, 20);
-            lblRunningTag.TabIndex = 12;
-            lblRunningTag.Text = "Running:";
-            // 
-            // lblRunning
-            // 
-            lblRunning.AutoSize = true;
-            lblRunning.Location = new Point(192, 200);
-            lblRunning.Name = "lblRunning";
-            lblRunning.Size = new Size(17, 20);
-            lblRunning.TabIndex = 13;
-            lblRunning.Text = "0";
+            lblWaitingVal.Location = new Point(297, 221);
+            lblWaitingVal.Name = "lblWaitingVal";
+            lblWaitingVal.Size = new Size(30, 21);
+            lblWaitingVal.TabIndex = 15;
+            lblWaitingVal.Text = "0";
             // 
             // lblWaitingTag
             // 
-            lblWaitingTag.AutoSize = true;
-            lblWaitingTag.Location = new Point(233, 200);
+            lblWaitingTag.Location = new Point(231, 221);
             lblWaitingTag.Name = "lblWaitingTag";
-            lblWaitingTag.Size = new Size(63, 20);
+            lblWaitingTag.Size = new Size(62, 21);
             lblWaitingTag.TabIndex = 14;
-            lblWaitingTag.Text = "Waiting:";
+            lblWaitingTag.Text = "Waiting";
             // 
-            // lblWaiting
+            // lblRunningVal
             // 
-            lblWaiting.AutoSize = true;
-            lblWaiting.Location = new Point(295, 200);
-            lblWaiting.Name = "lblWaiting";
-            lblWaiting.Size = new Size(17, 20);
-            lblWaiting.TabIndex = 15;
-            lblWaiting.Text = "0";
+            lblRunningVal.Location = new Point(185, 221);
+            lblRunningVal.Name = "lblRunningVal";
+            lblRunningVal.Size = new Size(30, 21);
+            lblRunningVal.TabIndex = 13;
+            lblRunningVal.Text = "0";
+            // 
+            // lblRunningTag
+            // 
+            lblRunningTag.Location = new Point(114, 221);
+            lblRunningTag.Name = "lblRunningTag";
+            lblRunningTag.Size = new Size(66, 21);
+            lblRunningTag.TabIndex = 12;
+            lblRunningTag.Text = "Running";
+            // 
+            // lblReadyVal
+            // 
+            lblReadyVal.Location = new Point(69, 221);
+            lblReadyVal.Name = "lblReadyVal";
+            lblReadyVal.Size = new Size(30, 21);
+            lblReadyVal.TabIndex = 11;
+            lblReadyVal.Text = "0";
+            // 
+            // lblReadyTag
+            // 
+            lblReadyTag.Location = new Point(14, 221);
+            lblReadyTag.Name = "lblReadyTag";
+            lblReadyTag.Size = new Size(53, 21);
+            lblReadyTag.TabIndex = 10;
+            lblReadyTag.Text = "Ready";
+            // 
+            // pbIo
+            // 
+            pbIo.Location = new Point(14, 188);
+            pbIo.Margin = new Padding(3, 4, 3, 4);
+            pbIo.Name = "pbIo";
+            pbIo.Size = new Size(311, 17);
+            pbIo.Style = ProgressBarStyle.Continuous;
+            pbIo.TabIndex = 9;
+            // 
+            // lblIoPct
+            // 
+            lblIoPct.Location = new Point(256, 163);
+            lblIoPct.Name = "lblIoPct";
+            lblIoPct.Size = new Size(69, 21);
+            lblIoPct.TabIndex = 8;
+            lblIoPct.Text = "0.0%";
+            lblIoPct.TextAlign = ContentAlignment.TopRight;
+            // 
+            // lblIoTag
+            // 
+            lblIoTag.Location = new Point(14, 163);
+            lblIoTag.Name = "lblIoTag";
+            lblIoTag.Size = new Size(69, 21);
+            lblIoTag.TabIndex = 7;
+            lblIoTag.Text = "I/O";
+            // 
+            // pbMem
+            // 
+            pbMem.Location = new Point(14, 132);
+            pbMem.Margin = new Padding(3, 4, 3, 4);
+            pbMem.Name = "pbMem";
+            pbMem.Size = new Size(311, 17);
+            pbMem.Style = ProgressBarStyle.Continuous;
+            pbMem.TabIndex = 6;
+            // 
+            // lblMemPct
+            // 
+            lblMemPct.Location = new Point(256, 107);
+            lblMemPct.Name = "lblMemPct";
+            lblMemPct.Size = new Size(69, 21);
+            lblMemPct.TabIndex = 5;
+            lblMemPct.Text = "0.0%";
+            lblMemPct.TextAlign = ContentAlignment.TopRight;
+            // 
+            // lblMemTag
+            // 
+            lblMemTag.Location = new Point(14, 107);
+            lblMemTag.Name = "lblMemTag";
+            lblMemTag.Size = new Size(69, 21);
+            lblMemTag.TabIndex = 4;
+            lblMemTag.Text = "Memory";
+            // 
+            // pbCpu
+            // 
+            pbCpu.Location = new Point(14, 76);
+            pbCpu.Margin = new Padding(3, 4, 3, 4);
+            pbCpu.Name = "pbCpu";
+            pbCpu.Size = new Size(311, 17);
+            pbCpu.Style = ProgressBarStyle.Continuous;
+            pbCpu.TabIndex = 3;
+            // 
+            // lblCpuPct
+            // 
+            lblCpuPct.Location = new Point(256, 51);
+            lblCpuPct.Name = "lblCpuPct";
+            lblCpuPct.Size = new Size(69, 21);
+            lblCpuPct.TabIndex = 2;
+            lblCpuPct.Text = "0.0%";
+            lblCpuPct.TextAlign = ContentAlignment.TopRight;
+            // 
+            // lblCpuTag
+            // 
+            lblCpuTag.Location = new Point(14, 51);
+            lblCpuTag.Name = "lblCpuTag";
+            lblCpuTag.Size = new Size(69, 21);
+            lblCpuTag.TabIndex = 1;
+            lblCpuTag.Text = "CPU";
+            // 
+            // lblResHdr
+            // 
+            lblResHdr.Location = new Point(14, 16);
+            lblResHdr.Name = "lblResHdr";
+            lblResHdr.Size = new Size(311, 24);
+            lblResHdr.TabIndex = 0;
+            lblResHdr.Text = "RESOURCE UTILISATION";
             // 
             // pnlCtrl
             // 
-            pnlCtrl.BackColor = Color.FromArgb(22, 27, 34);
-            pnlCtrl.Controls.Add(lblCtrlHdr);
-            pnlCtrl.Controls.Add(btnStart);
-            pnlCtrl.Controls.Add(btnStep);
             pnlCtrl.Controls.Add(btnReset);
-            pnlCtrl.Location = new Point(11, 331);
+            pnlCtrl.Controls.Add(btnStep);
+            pnlCtrl.Controls.Add(btnStart);
+            pnlCtrl.Controls.Add(lblCtrlHdr);
+            pnlCtrl.Location = new Point(0, 320);
             pnlCtrl.Margin = new Padding(3, 4, 3, 4);
             pnlCtrl.Name = "pnlCtrl";
-            pnlCtrl.Size = new Size(327, 160);
+            pnlCtrl.Size = new Size(341, 157);
             pnlCtrl.TabIndex = 1;
-            // 
-            // lblCtrlHdr
-            // 
-            lblCtrlHdr.AutoSize = true;
-            lblCtrlHdr.Location = new Point(16, 13);
-            lblCtrlHdr.Name = "lblCtrlHdr";
-            lblCtrlHdr.Size = new Size(172, 20);
-            lblCtrlHdr.TabIndex = 0;
-            lblCtrlHdr.Text = "SIMULATION CONTROLS";
-            // 
-            // btnStart
-            // 
-            btnStart.Location = new Point(16, 45);
-            btnStart.Margin = new Padding(3, 4, 3, 4);
-            btnStart.Name = "btnStart";
-            btnStart.Size = new Size(295, 45);
-            btnStart.TabIndex = 1;
-            btnStart.Text = "Start Simulation";
-            btnStart.UseVisualStyleBackColor = false;
-            btnStart.Click += BtnStart_Click;
-            // 
-            // btnStep
-            // 
-            btnStep.Location = new Point(16, 99);
-            btnStep.Margin = new Padding(3, 4, 3, 4);
-            btnStep.Name = "btnStep";
-            btnStep.Size = new Size(142, 45);
-            btnStep.TabIndex = 2;
-            btnStep.Text = "Next Step";
-            btnStep.UseVisualStyleBackColor = false;
-            btnStep.Click += BtnStep_Click;
             // 
             // btnReset
             // 
-            btnReset.Location = new Point(169, 99);
+            btnReset.Location = new Point(176, 99);
             btnReset.Margin = new Padding(3, 4, 3, 4);
             btnReset.Name = "btnReset";
-            btnReset.Size = new Size(142, 45);
+            btnReset.Size = new Size(149, 43);
             btnReset.TabIndex = 3;
             btnReset.Text = "Reset";
             btnReset.UseVisualStyleBackColor = false;
             btnReset.Click += BtnReset_Click;
             // 
+            // btnStep
+            // 
+            btnStep.Location = new Point(14, 99);
+            btnStep.Margin = new Padding(3, 4, 3, 4);
+            btnStep.Name = "btnStep";
+            btnStep.Size = new Size(149, 43);
+            btnStep.TabIndex = 2;
+            btnStep.Text = "Next Step";
+            btnStep.UseVisualStyleBackColor = false;
+            btnStep.Click += BtnStep_Click;
+            // 
+            // btnStart
+            // 
+            btnStart.Location = new Point(14, 48);
+            btnStart.Margin = new Padding(3, 4, 3, 4);
+            btnStart.Name = "btnStart";
+            btnStart.Size = new Size(311, 43);
+            btnStart.TabIndex = 1;
+            btnStart.Text = "Start Simulation";
+            btnStart.UseVisualStyleBackColor = false;
+            btnStart.Click += BtnStart_Click;
+            // 
+            // lblCtrlHdr
+            // 
+            lblCtrlHdr.Location = new Point(14, 16);
+            lblCtrlHdr.Name = "lblCtrlHdr";
+            lblCtrlHdr.Size = new Size(311, 24);
+            lblCtrlHdr.TabIndex = 0;
+            lblCtrlHdr.Text = "SIMULATION CONTROLS";
+            // 
             // pnlConfig
             // 
-            pnlConfig.BackColor = Color.FromArgb(22, 27, 34);
-            pnlConfig.Controls.Add(lblConfigHdr);
-            pnlConfig.Controls.Add(lblCpuLbl);
-            pnlConfig.Controls.Add(numCpu);
-            pnlConfig.Controls.Add(lblMemLbl);
-            pnlConfig.Controls.Add(numMemory);
-            pnlConfig.Controls.Add(lblIoLbl);
-            pnlConfig.Controls.Add(numIo);
             pnlConfig.Controls.Add(btnApply);
-            pnlConfig.Location = new Point(11, 13);
+            pnlConfig.Controls.Add(numIo);
+            pnlConfig.Controls.Add(lblIoLbl);
+            pnlConfig.Controls.Add(numMemory);
+            pnlConfig.Controls.Add(lblMemLbl);
+            pnlConfig.Controls.Add(numCpu);
+            pnlConfig.Controls.Add(lblCpuLbl);
+            pnlConfig.Controls.Add(lblConfigHdr);
+            pnlConfig.Location = new Point(0, 0);
             pnlConfig.Margin = new Padding(3, 4, 3, 4);
             pnlConfig.Name = "pnlConfig";
-            pnlConfig.Size = new Size(327, 304);
+            pnlConfig.Size = new Size(341, 309);
             pnlConfig.TabIndex = 0;
-            // 
-            // lblConfigHdr
-            // 
-            lblConfigHdr.AutoSize = true;
-            lblConfigHdr.Location = new Point(16, 13);
-            lblConfigHdr.Name = "lblConfigHdr";
-            lblConfigHdr.Size = new Size(180, 20);
-            lblConfigHdr.TabIndex = 0;
-            lblConfigHdr.Text = "SYSTEM CONFIGURATION";
-            // 
-            // lblCpuLbl
-            // 
-            lblCpuLbl.AutoSize = true;
-            lblCpuLbl.Location = new Point(16, 47);
-            lblCpuLbl.Name = "lblCpuLbl";
-            lblCpuLbl.Size = new Size(121, 20);
-            lblCpuLbl.TabIndex = 1;
-            lblCpuLbl.Text = "CPU Units (total):";
-            // 
-            // numCpu
-            // 
-            numCpu.BorderStyle = BorderStyle.FixedSingle;
-            numCpu.Location = new Point(16, 71);
-            numCpu.Margin = new Padding(3, 4, 3, 4);
-            numCpu.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
-            numCpu.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            numCpu.Name = "numCpu";
-            numCpu.Size = new Size(295, 27);
-            numCpu.TabIndex = 2;
-            numCpu.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // lblMemLbl
-            // 
-            lblMemLbl.AutoSize = true;
-            lblMemLbl.Location = new Point(16, 111);
-            lblMemLbl.Name = "lblMemLbl";
-            lblMemLbl.Size = new Size(103, 20);
-            lblMemLbl.TabIndex = 3;
-            lblMemLbl.Text = "Memory (MB):";
-            // 
-            // numMemory
-            // 
-            numMemory.BorderStyle = BorderStyle.FixedSingle;
-            numMemory.Location = new Point(16, 135);
-            numMemory.Margin = new Padding(3, 4, 3, 4);
-            numMemory.Maximum = new decimal(new int[] { 65536, 0, 0, 0 });
-            numMemory.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            numMemory.Name = "numMemory";
-            numMemory.Size = new Size(295, 27);
-            numMemory.TabIndex = 4;
-            numMemory.Value = new decimal(new int[] { 1024, 0, 0, 0 });
-            // 
-            // lblIoLbl
-            // 
-            lblIoLbl.AutoSize = true;
-            lblIoLbl.Location = new Point(16, 175);
-            lblIoLbl.Name = "lblIoLbl";
-            lblIoLbl.Size = new Size(70, 20);
-            lblIoLbl.TabIndex = 5;
-            lblIoLbl.Text = "I/O Units:";
-            // 
-            // numIo
-            // 
-            numIo.BorderStyle = BorderStyle.FixedSingle;
-            numIo.Location = new Point(16, 199);
-            numIo.Margin = new Padding(3, 4, 3, 4);
-            numIo.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            numIo.Name = "numIo";
-            numIo.Size = new Size(295, 27);
-            numIo.TabIndex = 6;
-            numIo.Value = new decimal(new int[] { 10, 0, 0, 0 });
             // 
             // btnApply
             // 
-            btnApply.Location = new Point(16, 248);
+            btnApply.Location = new Point(14, 256);
             btnApply.Margin = new Padding(3, 4, 3, 4);
             btnApply.Name = "btnApply";
-            btnApply.Size = new Size(295, 40);
+            btnApply.Size = new Size(311, 43);
             btnApply.TabIndex = 7;
             btnApply.Text = "Apply Config";
             btnApply.UseVisualStyleBackColor = false;
             btnApply.Click += BtnApply_Click;
             // 
+            // numIo
+            // 
+            numIo.BorderStyle = BorderStyle.FixedSingle;
+            numIo.Location = new Point(14, 208);
+            numIo.Margin = new Padding(3, 4, 3, 4);
+            numIo.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numIo.Name = "numIo";
+            numIo.Size = new Size(311, 27);
+            numIo.TabIndex = 6;
+            numIo.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            // 
+            // lblIoLbl
+            // 
+            lblIoLbl.Location = new Point(14, 184);
+            lblIoLbl.Name = "lblIoLbl";
+            lblIoLbl.Size = new Size(229, 21);
+            lblIoLbl.TabIndex = 5;
+            lblIoLbl.Text = "I/O Units";
+            // 
+            // numMemory
+            // 
+            numMemory.BorderStyle = BorderStyle.FixedSingle;
+            numMemory.Location = new Point(14, 141);
+            numMemory.Margin = new Padding(3, 4, 3, 4);
+            numMemory.Maximum = new decimal(new int[] { 65536, 0, 0, 0 });
+            numMemory.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numMemory.Name = "numMemory";
+            numMemory.Size = new Size(311, 27);
+            numMemory.TabIndex = 4;
+            numMemory.Value = new decimal(new int[] { 1024, 0, 0, 0 });
+            // 
+            // lblMemLbl
+            // 
+            lblMemLbl.Location = new Point(14, 117);
+            lblMemLbl.Name = "lblMemLbl";
+            lblMemLbl.Size = new Size(229, 21);
+            lblMemLbl.TabIndex = 3;
+            lblMemLbl.Text = "Memory (MB)";
+            // 
+            // numCpu
+            // 
+            numCpu.BorderStyle = BorderStyle.FixedSingle;
+            numCpu.Location = new Point(14, 75);
+            numCpu.Margin = new Padding(3, 4, 3, 4);
+            numCpu.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
+            numCpu.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numCpu.Name = "numCpu";
+            numCpu.Size = new Size(311, 27);
+            numCpu.TabIndex = 2;
+            numCpu.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // lblCpuLbl
+            // 
+            lblCpuLbl.Location = new Point(14, 51);
+            lblCpuLbl.Name = "lblCpuLbl";
+            lblCpuLbl.Size = new Size(229, 21);
+            lblCpuLbl.TabIndex = 1;
+            lblCpuLbl.Text = "CPU Units (total)";
+            // 
+            // lblConfigHdr
+            // 
+            lblConfigHdr.Location = new Point(14, 16);
+            lblConfigHdr.Name = "lblConfigHdr";
+            lblConfigHdr.Size = new Size(311, 24);
+            lblConfigHdr.TabIndex = 0;
+            lblConfigHdr.Text = "SYSTEM CONFIGURATION";
+            // 
             // pnlRight
             // 
-            pnlRight.BackColor = Color.FromArgb(13, 17, 23);
+            pnlRight.Controls.Add(grid);
             pnlRight.Controls.Add(pnlLog);
-            pnlRight.Controls.Add(pnlProc);
+            pnlRight.Controls.Add(pnlProcBar);
             pnlRight.Dock = DockStyle.Fill;
-            pnlRight.Location = new Point(354, 61);
+            pnlRight.Location = new Point(376, 12);
             pnlRight.Margin = new Padding(3, 4, 3, 4);
             pnlRight.Name = "pnlRight";
-            pnlRight.Padding = new Padding(11, 13, 11, 13);
-            pnlRight.Size = new Size(943, 801);
-            pnlRight.TabIndex = 3;
-            // 
-            // pnlLog
-            // 
-            pnlLog.BackColor = Color.FromArgb(22, 27, 34);
-            pnlLog.Controls.Add(lblLogHdr);
-            pnlLog.Controls.Add(rtbLog);
-            pnlLog.Dock = DockStyle.Bottom;
-            pnlLog.Location = new Point(11, 575);
-            pnlLog.Margin = new Padding(3, 4, 3, 4);
-            pnlLog.Name = "pnlLog";
-            pnlLog.Padding = new Padding(9, 8, 9, 8);
-            pnlLog.Size = new Size(921, 213);
-            pnlLog.TabIndex = 1;
-            // 
-            // lblLogHdr
-            // 
-            lblLogHdr.AutoSize = true;
-            lblLogHdr.Location = new Point(9, 5);
-            lblLogHdr.Name = "lblLogHdr";
-            lblLogHdr.Size = new Size(100, 20);
-            lblLogHdr.TabIndex = 0;
-            lblLogHdr.Text = "ACTIVITY LOG";
-            // 
-            // rtbLog
-            // 
-            rtbLog.BorderStyle = BorderStyle.None;
-            rtbLog.Dock = DockStyle.Bottom;
-            rtbLog.Location = new Point(9, 32);
-            rtbLog.Margin = new Padding(3, 4, 3, 4);
-            rtbLog.Name = "rtbLog";
-            rtbLog.ReadOnly = true;
-            rtbLog.ScrollBars = RichTextBoxScrollBars.Vertical;
-            rtbLog.Size = new Size(903, 173);
-            rtbLog.TabIndex = 1;
-            rtbLog.Text = "";
-            // 
-            // pnlProc
-            // 
-            pnlProc.BackColor = Color.FromArgb(22, 27, 34);
-            pnlProc.Controls.Add(lblProcHdr);
-            pnlProc.Controls.Add(btnAdd);
-            pnlProc.Controls.Add(btnEdit);
-            pnlProc.Controls.Add(btnDelete);
-            pnlProc.Controls.Add(grid);
-            pnlProc.Dock = DockStyle.Fill;
-            pnlProc.Location = new Point(11, 13);
-            pnlProc.Margin = new Padding(3, 4, 3, 4);
-            pnlProc.Name = "pnlProc";
-            pnlProc.Padding = new Padding(11, 13, 11, 13);
-            pnlProc.Size = new Size(921, 775);
-            pnlProc.TabIndex = 0;
-            // 
-            // lblProcHdr
-            // 
-            lblProcHdr.AutoSize = true;
-            lblProcHdr.Location = new Point(11, 13);
-            lblProcHdr.Name = "lblProcHdr";
-            lblProcHdr.Size = new Size(115, 20);
-            lblProcHdr.TabIndex = 0;
-            lblProcHdr.Text = "PROCESS TABLE";
-            // 
-            // btnAdd
-            // 
-            btnAdd.Location = new Point(11, 45);
-            btnAdd.Margin = new Padding(3, 4, 3, 4);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(101, 37);
-            btnAdd.TabIndex = 1;
-            btnAdd.Text = "Add";
-            btnAdd.UseVisualStyleBackColor = false;
-            btnAdd.Click += BtnAdd_Click;
-            // 
-            // btnEdit
-            // 
-            btnEdit.Location = new Point(119, 45);
-            btnEdit.Margin = new Padding(3, 4, 3, 4);
-            btnEdit.Name = "btnEdit";
-            btnEdit.Size = new Size(101, 37);
-            btnEdit.TabIndex = 2;
-            btnEdit.Text = "Edit";
-            btnEdit.UseVisualStyleBackColor = false;
-            btnEdit.Click += BtnEdit_Click;
-            // 
-            // btnDelete
-            // 
-            btnDelete.Location = new Point(226, 45);
-            btnDelete.Margin = new Padding(3, 4, 3, 4);
-            btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(101, 37);
-            btnDelete.TabIndex = 3;
-            btnDelete.Text = "Delete";
-            btnDelete.UseVisualStyleBackColor = false;
-            btnDelete.Click += BtnDelete_Click;
+            pnlRight.Size = new Size(1077, 922);
+            pnlRight.TabIndex = 1;
             // 
             // grid
             // 
@@ -720,10 +644,10 @@
             grid.AllowUserToResizeRows = false;
             grid.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             grid.BorderStyle = BorderStyle.None;
-            grid.ColumnHeadersHeight = 30;
+            grid.ColumnHeadersHeight = 34;
             grid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            grid.Dock = DockStyle.Bottom;
-            grid.Location = new Point(11, 255);
+            grid.Dock = DockStyle.Fill;
+            grid.Location = new Point(0, 69);
             grid.Margin = new Padding(3, 4, 3, 4);
             grid.MultiSelect = false;
             grid.Name = "grid";
@@ -731,49 +655,133 @@
             grid.RowHeadersVisible = false;
             grid.RowHeadersWidth = 51;
             grid.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            grid.Size = new Size(899, 507);
-            grid.TabIndex = 4;
+            grid.Size = new Size(1077, 640);
+            grid.TabIndex = 1;
+            grid.CellContentClick += grid_CellContentClick;
+            // 
+            // pnlLog
+            // 
+            pnlLog.Controls.Add(rtbLog);
+            pnlLog.Controls.Add(lblLogHdr);
+            pnlLog.Dock = DockStyle.Bottom;
+            pnlLog.Location = new Point(0, 709);
+            pnlLog.Margin = new Padding(3, 4, 3, 4);
+            pnlLog.Name = "pnlLog";
+            pnlLog.Size = new Size(1077, 213);
+            pnlLog.TabIndex = 2;
+            // 
+            // rtbLog
+            // 
+            rtbLog.BorderStyle = BorderStyle.None;
+            rtbLog.Dock = DockStyle.Bottom;
+            rtbLog.Location = new Point(0, 42);
+            rtbLog.Margin = new Padding(3, 4, 3, 4);
+            rtbLog.Name = "rtbLog";
+            rtbLog.ReadOnly = true;
+            rtbLog.ScrollBars = RichTextBoxScrollBars.Vertical;
+            rtbLog.Size = new Size(1077, 171);
+            rtbLog.TabIndex = 1;
+            rtbLog.Text = "";
+            // 
+            // lblLogHdr
+            // 
+            lblLogHdr.Location = new Point(14, 8);
+            lblLogHdr.Name = "lblLogHdr";
+            lblLogHdr.Size = new Size(229, 27);
+            lblLogHdr.TabIndex = 0;
+            lblLogHdr.Text = "ACTIVITY LOG";
+            // 
+            // pnlProcBar
+            // 
+            pnlProcBar.Controls.Add(btnDelete);
+            pnlProcBar.Controls.Add(btnEdit);
+            pnlProcBar.Controls.Add(btnAdd);
+            pnlProcBar.Controls.Add(lblProcHdr);
+            pnlProcBar.Dock = DockStyle.Top;
+            pnlProcBar.Location = new Point(0, 0);
+            pnlProcBar.Margin = new Padding(3, 4, 3, 4);
+            pnlProcBar.Name = "pnlProcBar";
+            pnlProcBar.Size = new Size(1077, 69);
+            pnlProcBar.TabIndex = 0;
+            // 
+            // btnDelete
+            // 
+            btnDelete.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnDelete.Location = new Point(849, 0);
+            btnDelete.Margin = new Padding(3, 4, 3, 4);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(103, 43);
+            btnDelete.TabIndex = 3;
+            btnDelete.Text = "Delete";
+            btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += BtnDelete_Click;
+            // 
+            // btnEdit
+            // 
+            btnEdit.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnEdit.Location = new Point(849, 0);
+            btnEdit.Margin = new Padding(3, 4, 3, 4);
+            btnEdit.Name = "btnEdit";
+            btnEdit.Size = new Size(103, 43);
+            btnEdit.TabIndex = 2;
+            btnEdit.Text = "Edit";
+            btnEdit.UseVisualStyleBackColor = false;
+            btnEdit.Click += BtnEdit_Click;
+            // 
+            // btnAdd
+            // 
+            btnAdd.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnAdd.Location = new Point(849, 0);
+            btnAdd.Margin = new Padding(3, 4, 3, 4);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(103, 43);
+            btnAdd.TabIndex = 1;
+            btnAdd.Text = "Add";
+            btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += BtnAdd_Click;
+            // 
+            // lblProcHdr
+            // 
+            lblProcHdr.Location = new Point(14, 21);
+            lblProcHdr.Name = "lblProcHdr";
+            lblProcHdr.Size = new Size(274, 27);
+            lblProcHdr.TabIndex = 0;
+            lblProcHdr.Text = "PROCESS TABLE";
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1297, 897);
-            Controls.Add(pnlRight);
-            Controls.Add(pnlLeft);
+            ClientSize = new Size(1463, 1055);
+            Controls.Add(tlpMain);
             Controls.Add(pnlLegend);
             Controls.Add(pnlTitle);
             Margin = new Padding(3, 4, 3, 4);
-            MinimumSize = new Size(1255, 944);
+            MinimumSize = new Size(1026, 784);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Mini OS Resource Monitor v1.0";
+            Text = "Mini OS Resource Monitor  v1.0";
             pnlTitle.ResumeLayout(false);
-            pnlTitle.PerformLayout();
             pnlLegend.ResumeLayout(false);
-            pnlLegend.PerformLayout();
-            pnlLeft.ResumeLayout(false);
+            tlpMain.ResumeLayout(false);
+            scrlLeft.ResumeLayout(false);
+            pnlGraph.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picGraph).EndInit();
             pnlPerf.ResumeLayout(false);
-            pnlPerf.PerformLayout();
             pnlRes.ResumeLayout(false);
-            pnlRes.PerformLayout();
             pnlCtrl.ResumeLayout(false);
-            pnlCtrl.PerformLayout();
             pnlConfig.ResumeLayout(false);
-            pnlConfig.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numCpu).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numMemory).EndInit();
             ((System.ComponentModel.ISupportInitialize)numIo).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numMemory).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numCpu).EndInit();
             pnlRight.ResumeLayout(false);
-            pnlLog.ResumeLayout(false);
-            pnlLog.PerformLayout();
-            pnlProc.ResumeLayout(false);
-            pnlProc.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)grid).EndInit();
+            pnlLog.ResumeLayout(false);
+            pnlProcBar.ResumeLayout(false);
             ResumeLayout(false);
         }
 
-        // ── Field declarations ────────────────────────────────────────────────
+        // ── Field declarations ─────────────────────────────────────────────────
         private System.Windows.Forms.Panel pnlTitle;
         private System.Windows.Forms.Label lblAppTitle;
         private System.Windows.Forms.Label lblSubtitle;
@@ -784,7 +792,8 @@
         private System.Windows.Forms.Label lblLegRunning;
         private System.Windows.Forms.Label lblLegWaiting;
         private System.Windows.Forms.Label lblLegTerm;
-        private System.Windows.Forms.Panel pnlLeft;
+        private System.Windows.Forms.TableLayoutPanel tlpMain;
+        private System.Windows.Forms.Panel scrlLeft;
         private System.Windows.Forms.Panel pnlConfig;
         private System.Windows.Forms.Label lblConfigHdr;
         private System.Windows.Forms.Label lblCpuLbl;
@@ -811,11 +820,11 @@
         private System.Windows.Forms.Label lblIoPct;
         private System.Windows.Forms.ProgressBar pbIo;
         private System.Windows.Forms.Label lblReadyTag;
-        private System.Windows.Forms.Label lblReady;
+        private System.Windows.Forms.Label lblReadyVal;
         private System.Windows.Forms.Label lblRunningTag;
-        private System.Windows.Forms.Label lblRunning;
+        private System.Windows.Forms.Label lblRunningVal;
         private System.Windows.Forms.Label lblWaitingTag;
-        private System.Windows.Forms.Label lblWaiting;
+        private System.Windows.Forms.Label lblWaitingVal;
         private System.Windows.Forms.Panel pnlPerf;
         private System.Windows.Forms.Label lblPerfHdr;
         private System.Windows.Forms.Label lblThruTag;
@@ -824,8 +833,11 @@
         private System.Windows.Forms.Label lblAvgWait;
         private System.Windows.Forms.Label lblCompTag;
         private System.Windows.Forms.Label lblCompleted;
+        private System.Windows.Forms.Panel pnlGraph;
+        private System.Windows.Forms.Label lblGraphHdr;
+        private System.Windows.Forms.PictureBox picGraph;
         private System.Windows.Forms.Panel pnlRight;
-        private System.Windows.Forms.Panel pnlProc;
+        private System.Windows.Forms.Panel pnlProcBar;
         private System.Windows.Forms.Label lblProcHdr;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnEdit;

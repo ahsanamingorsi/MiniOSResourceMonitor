@@ -5,6 +5,16 @@
 ![WinForms](https://img.shields.io/badge/UI-WinForms-green)
 ![Status](https://img.shields.io/badge/Project-Academic-orange)
 
+<p align="center">
+
+<h2>🚀 Download Latest Release</h2>
+
+<a href="https://github.com/USERNAME/REPO/releases/latest/download/MiniOSResourceMonitor.exe">
+  <img src="https://img.shields.io/badge/Download-Windows%20EXE-1f6feb?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</p>
+
 A desktop simulation application built with **C# WinForms** that demonstrates how an operating system manages system resources such as **CPU, memory, and I/O devices**.
 
 This project simulates key operating system concepts including **process lifecycle, resource allocation, and system performance monitoring**.

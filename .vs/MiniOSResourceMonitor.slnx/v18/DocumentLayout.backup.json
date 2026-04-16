@@ -7,10 +7,37 @@
       "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\miniosresourcemonitor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\interfaces\\iresourceallocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\interfaces\\iresourceallocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\interfaces\\iperformanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\interfaces\\iperformanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\interfaces\\iconfigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\interfaces\\iconfigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\models\\osprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\models\\osprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\simulation\\simulationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\simulation\\simulationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+=======
       "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\miniosresourcemonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+>>>>>>> parent of b287c65 (make installer file)
       "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,12 +46,17 @@
       "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\ui\\addprocessform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\ui\\addprocessform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
       "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\miniosresourcemonitor\\ui\\addprocessform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\ui\\addprocessform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|c:\\users\\user\\documents\\github\\miniosresourcemonitor\\miniosresourcemonitor\\ui\\addprocessform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{800BA909-1333-432F-9990-102A19A3EB13}|MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj|solutionrelative:miniosresourcemonitor\\ui\\addprocessform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> parent of b287c65 (make installer file)
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 2,
+=======
           "SelectedChildIndex": 1,
+>>>>>>> parent of b287c65 (make installer file)
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+<<<<<<< HEAD
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+=======
+>>>>>>> parent of b287c65 (make installer file)
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MiniOSResourceMonitor",
@@ -49,7 +92,50 @@
               "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj",
               "RelativeToolTip": "MiniOSResourceMonitor\\MiniOSResourceMonitor.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+<<<<<<< HEAD
+              "WhenOpened": "2026-04-10T05:37:02.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IResourceAllocator.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Interfaces\\IResourceAllocator.cs",
+              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Interfaces\\IResourceAllocator.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Interfaces\\IResourceAllocator.cs",
+              "RelativeToolTip": "MiniOSResourceMonitor\\Interfaces\\IResourceAllocator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:59:05.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPerformanceService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Interfaces\\IPerformanceService.cs",
+              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Interfaces\\IPerformanceService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Interfaces\\IPerformanceService.cs",
+              "RelativeToolTip": "MiniOSResourceMonitor\\Interfaces\\IPerformanceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:59:03.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IConfigurationService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Interfaces\\IConfigurationService.cs",
+              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Interfaces\\IConfigurationService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Interfaces\\IConfigurationService.cs",
+              "RelativeToolTip": "MiniOSResourceMonitor\\Interfaces\\IConfigurationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:59:01.532Z",
+=======
               "WhenOpened": "2026-03-31T10:26:11.27Z",
+>>>>>>> parent of b287c65 (make installer file)
               "EditorCaption": ""
             },
             {
@@ -61,17 +147,60 @@
               "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\MainForm.cs [Design]",
               "RelativeToolTip": "MiniOSResourceMonitor\\UI\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2026-04-10T04:36:56.61Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OsProcess.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Models\\OsProcess.cs",
+              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Models\\OsProcess.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Models\\OsProcess.cs",
+              "RelativeToolTip": "MiniOSResourceMonitor\\Models\\OsProcess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:57:58.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SimulationData.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Simulation\\SimulationData.cs",
+              "RelativeDocumentMoniker": "MiniOSResourceMonitor\\Simulation\\SimulationData.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\Simulation\\SimulationData.cs",
+              "RelativeToolTip": "MiniOSResourceMonitor\\Simulation\\SimulationData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:58:25.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+=======
               "WhenOpened": "2026-03-31T04:08:55.94Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+>>>>>>> parent of b287c65 (make installer file)
               "Title": "AddProcessForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\AddProcessForm.cs",
               "RelativeDocumentMoniker": "MiniOSResourceMonitor\\UI\\AddProcessForm.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\AddProcessForm.cs [Design]",
               "RelativeToolTip": "MiniOSResourceMonitor\\UI\\AddProcessForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2026-04-10T04:39:27.992Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+=======
               "WhenOpened": "2026-03-31T04:04:02.284Z"
             },
             {
@@ -89,11 +218,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+>>>>>>> parent of b287c65 (make installer file)
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MiniOSResourceMonitor\\UI\\MainForm.Designer.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\MainForm.Designer.cs",
               "RelativeToolTip": "MiniOSResourceMonitor\\UI\\MainForm.Designer.cs",
+<<<<<<< HEAD
+              "ViewState": "AgIAADoDAAAAAAAAAAAcwEsDAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:37:29.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+=======
               "ViewState": "AgIAACcDAAAAAAAAAAAgwEUDAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T16:39:32.546Z"
@@ -101,14 +241,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+>>>>>>> parent of b287c65 (make installer file)
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\MainForm.cs",
               "RelativeDocumentMoniker": "MiniOSResourceMonitor\\UI\\MainForm.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\MiniOSResourceMonitor\\MiniOSResourceMonitor\\UI\\MainForm.cs",
               "RelativeToolTip": "MiniOSResourceMonitor\\UI\\MainForm.cs",
+<<<<<<< HEAD
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALYBAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:36:40.395Z",
+              "EditorCaption": ""
+=======
               "ViewState": "AgIAAKYBAAAAAAAAAAAgwMQBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T16:38:04.036Z"
+>>>>>>> parent of b287c65 (make installer file)
             }
           ]
         }
