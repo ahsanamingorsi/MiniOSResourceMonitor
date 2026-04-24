@@ -54,35 +54,6 @@ This allows users to visually observe how operating systems manage processes and
 
 ---
 
-# System Architecture
-
-The application follows a **component based architecture** where each module performs a specific responsibility.
-
-```
-User Interface
-      |
-System Configuration
-      |
-Process Management
-      |
-Process State Manager
-      |
-Resource Allocation
-      |
-Simulation Data
-      |
-Performance Calculation
-```
-
-This design ensures:
-
-- Clear separation of responsibilities
-- Modular structure
-- Maintainable code
-- Logical data flow
-
----
-
 # System Modules
 
 ## 1 System Configuration
